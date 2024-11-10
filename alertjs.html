@@ -8,5 +8,23 @@
 <body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="../js/alert.js"></script>
+    <script>
+        
+function calculateAverage(arr) {
+    let sum = 0;
+    
+    arr.map((i) => {
+        sum += i;
+    });
+
+    return sum / arr.length;
+}
+
+let arr = [2, 4, 6];
+// let average = calculateAverage(arr);
+
+console.log(calculateAverage(arr)); 
+
+    </script>
 </body>
 </html>
